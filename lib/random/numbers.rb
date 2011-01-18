@@ -14,7 +14,7 @@ module Bitgain
       end
 
       # choose_from_array([1,2,3,4], 3) # => [4, 2, 3]
-      def choose_from_array(_arr, _nr)
+      def self.choose_from_array(_arr, _nr)
         arr = []
         1.upto(_nr) { arr << _arr[rand(_arr.size)] }
         return arr
