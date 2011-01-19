@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Erik van Eykelen"]
   s.email       = ["erik.van.eykelen@bitgain.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/evaneykelen/bitgain-mockdata/wiki/Documentation"
   s.summary     = %q{Random data generator for test purposes}
   s.description = %q{Generates random first and last names, company names, numbers, time-zones and words}
 
