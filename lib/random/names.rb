@@ -1,7 +1,7 @@
 module Bitgain
   module Mockdata
     class Names  
-      RND_FIRST_NAMES = %w{Jack Joshua William Thomas Riley James Cooper Ethan Noah Ali Muhammed Hussein Hydar Ahmed Omar Hasan Kathem Abdullah Ammar Hiroto Ren Yuto Satoshi Kei Hiroki Kenjirou Kenshirou Kenji Tatsuhiko Jens Peter Lars Michael Henrik Niels Hans Oliver Harry Alfie Charlie Daniel Enzo Mathis Lucas Nolan Killian Raphael Tom Nathan Lena Leonie Anna Sarah Julia Hannah Laura Katharina Sophie Lisa Emma Freja Caroline Ida Sofie Mathilde Sara Olivia Ruby Grace Emily Jessica Chloe Lily Mia Lucy Lea Manon Clara Ines Camille Jade Elena Olga Tatiana Irina Natalia Svetlana Maria Marina Ludmilla Aiden Kaden Jayden Logan Liam Jacob Caden Jackson Matthew John Robert David Richard Charles Joseph Mikayla Sophia Maya Danica Ava Isabella Constanza Martina Catalina Valentina Sofia Javiera Antonia Isidora Francisca Mary Patricia Linda Barbara Elizabeth Jennifer Susan Margaret Dorothy}
+      RND_FIRST_NAMES = %w{Jack Joshua William Thomas Riley James Cooper Ethan Noah Ali Muhammed Hussein Hydar Ahmed Omar Hasan Kathem Abdullah Ammar Hiroto Ren Yuto Satoshi Kei Hiroki Kenjirou Kenshirou Kenji Tatsuhiko Jens Peter Lars Michael Henrik Niels Hans Oliver Harry Alfie Charlie Daniel Enzo Mathis Lucas Nolan Killian Raphael Tom Nathan Lena Leonie Anna Sarah Julia Hannah Laura Katharina Sophie Lisa Emma Freja Caroline Ida Sofie Mathilde Sara Olivia Ruby Grace Emily Jessica Chloe Lily Mia Lucy Lea Manon Clara Ines Camille Jade Elena Olga Tatiana Irina Natalia Svetlana Maria Marina Ludmilla Aiden Kaden Jayden Logan Liam Jacob Caden Jackson Matthew John Robert David Richard Charles Joseph Mikayla Sophia Maya Danica Ava Isabella Constanza Martina Catalina Valentina Sofia Javiera Antonia Isidora Francisca Mary Patricia Linda Barbara Elizabeth Jennifer Susan Margaret}
 
       RND_LAST_NAME = %w{Alexander Ali Allen Amar Andersen Anderson Avraham Azulai Bakker Bauer Berg Bernard Biton Brown Byrne Calderon Chadad Christensen Claes Clark Clarke Cohen Cox Dahan David Davies Davis Dijk Dubois Durand Friedman Gabai Garcia Gonzalez Goossens Green Gruber Gutierrez Hall Hansen Harris Hernandez Huber Ivanov Jackson Jacobs James Jansen Janssen Janssens Jensen Jimenez Johnson Jones Katz Kelly Khan King Kozlov Kuznetsov Larsen Lebedev Lee Leroy Levi Lewis Lopez Maes Malcah Martin Martinez Mason Mayer Mertens Meyer Miller Mitchell Mizrachi Moore Mora Morales Moser Muller Murphy Nielsen Novikov Ochion Patel Pedersen Peeters Peretz Perez Petit Phillips Pichler Popov Ramirez Rasmussen Richard Robert Roberts Robinson Rodriguez Rojas Rose Ryan Sanchez Scott Smirnov Smit Smith Sokolov Sorensen Steiner Taylor Thomas Thompson Visser Wagner Walker Walsh White Willems Williams Wilson Wouters Wright Young}
 
@@ -16,6 +16,10 @@ module Bitgain
 
       def self.last_name
         RND_LAST_NAME[rand(RND_LAST_NAME.size)]
+      end
+
+      def self.first_and_last_name
+        "#{first_name} #{last_name}"
       end
 
       def self.company_name
