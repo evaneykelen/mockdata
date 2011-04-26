@@ -9,6 +9,8 @@ module Bitgain
       RND_COMPANY_NAMES = [ "Bitoptic, Inc.", "Buzzarray Ltd", "Gigasink SA", "Objectfiber GmbH", "Riffpoint Corp", "Snapath, Inc.", "Babbletweet BV", "Brightsquawk AS", "Bubblememo Ltd", "Dynacable Holding", "Flipgram Corporation", "Blackchilla Works", "Bluelope.com",  "Purplegale Limited", "Yellowolf.com" ]
 
       RND_PROJECT_NAMES = [ "Anaconda Warp", "Bleeding Moon", "Brave Neutron", "Steep Curb", "Cool Artificial", "Dead Crystal", "Electric Spark", "Front Street", "Frozen Sunshine", "Furious Skunk", "Global Yard", "Green Emerald", "Gray Vulture", "Insane Steel", "Ivory Tuba", "Lucky Morning", "Moving Vegetable", "Navy Mountain", "Mars Mission", "Next Square", "Maroon Nitrogen", "Northernmost Galaxy", "Olive Monkey", "Permanent Albatross", "Pure Spider", "Purple Panther", "Ice Ruby", "Remote Cloud", "Running Creek", "Rusty Beacon", "Serious Summer", "Sienna Compass", "Stony Sound", "Straw Plastic", "Swift Burst", "Tainted Torpedo", "Tasty Comic" ]
+
+      RND_HORSE_NAMES = [ "Amber", "Annie", "Badal", "Beast", "Beauty", "Bella", "Belle", "Blaze", "Blue", "Bob", "Buck", "Buddy", "Buttercup", "Casey", "Chance", "Charger", "Cherokee", "Chester", "Cheyenne", "Chief", "Coco", "Cocoa", "Colton", "Cowboy", "Cricket", "Daisy", "Dakota", "Dallas", "Dani", "Dixie", "Dolly", "Dreamer", "Duke", "Dusty", "Emily", "Emma", "Estrellita", "Gypsy", "Harley", "Honey", "Jack", "Jake", "Kidd", "Lady", "Lucky", "Luna", "Magic", "Mariah", "Max", "Midnight", "Midnight storm", "Milo", "Minnie", "Missy", "Misty", "Mojo", "Molly", "Monkey", "Moon", "Morgan", "Nikita", "Nikki", "Nutmeg", "Prince", "Princess", "Rain", "Ranger", "Red", "Rocky", "Roger", "Rosalia", "Rosie", "Sally", "Sassy", "Shiloh", "Sky", "Smokey", "Spirit", "Star", "Stormy", "Sugar", "Sultan", "Sundance", "Taz", "Telly", "Thor", "Tinker", "Toby", "Tom", "Tony", "Tornado", "Tucker", "Twister", "Whisper", "Willow", "Yankee" ]
   
       def self.first_name
         RND_FIRST_NAMES[rand(RND_FIRST_NAMES.size)]
@@ -28,6 +30,10 @@ module Bitgain
 
       def self.project_name
         RND_PROJECT_NAMES[rand(RND_PROJECT_NAMES.size)]
+      end
+
+      def self.horse_name
+        RND_HORSE_NAMES[rand(RND_HORSE_NAMES.size)]
       end
     end
   end

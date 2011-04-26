@@ -1,7 +1,7 @@
 module Bitgain
   module Mockdata
     class Numbers
-      # random_between(1..6) # => 2
+      # random_between(2..6) # => 2
       def self.random_between(_range)
         rand((_range.max-_range.min)+1)+_range.min # 2..6 => (6-2)+1=5 => 0,1,2,3,4 => +2 => 2,3,4,5,6
       end
