@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    bitgain-mockdata (0.0.5)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bitgain-mockdata!
