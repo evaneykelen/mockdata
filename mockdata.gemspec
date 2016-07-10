@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'bitgain_mockdata/version'
+require 'mockdata/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "bitgain-mockdata"
-  spec.version       = BitgainMockdata::VERSION
+  spec.name          = "mockdata"
+  spec.version       = Mockdata::VERSION
   spec.authors       = ["Erik van Eykelen"]
   spec.email         = ["erik.van.eykelen@bitgain.com"]
 
   spec.summary       = %q{Random data generator for test purposes}
   spec.description   = %q{Generates random first and last names, company names, numbers, time-zones and words}
-  spec.homepage      = "https://github.com/evaneykelen/bitgain-mockdata/wiki/Documentation"
+  spec.homepage      = "https://github.com/evaneykelen/mockdata/wiki/Documentation"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }

@@ -1,4 +1,4 @@
-module BitgainMockdata
+module Mockdata
   class Locations
     # Location, Latitude, Longitude
     RND_LOCATIONS = [

@@ -1,1 +1,1 @@
-See https://github.com/evaneykelen/bitgain-mockdata/wiki/Documentation for documentation.
+See https://github.com/evaneykelen/mockdata/wiki/Documentation for documentation.

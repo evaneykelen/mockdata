@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in bitgain_mockdata.gemspec
+# Specify your gem's dependencies in mockdata.gemspec
 gemspec

@@ -1,4 +1,4 @@
-module BitgainMockdata
+module Mockdata
   class Names
     RND_FIRST_NAMES = %w{Jack Joshua William Thomas Riley James Cooper Ethan Noah Ali Muhammed Hussein Hydar Ahmed Omar Hasan Kathem Abdullah Ammar Hiroto Ren Yuto Satoshi Kei Hiroki Kenjirou Kenshirou Kenji Tatsuhiko Jens Peter Lars Michael Henrik Niels Hans Oliver Harry Alfie Charlie Daniel Enzo Mathis Lucas Nolan Killian Raphael Tom Nathan Lena Leonie Anna Sarah Julia Hannah Laura Katharina Sophie Lisa Emma Freja Caroline Ida Sofie Mathilde Sara Olivia Ruby Grace Emily Jessica Chloe Lily Mia Lucy Lea Manon Clara Ines Camille Jade Elena Olga Tatiana Irina Natalia Svetlana Maria Marina Ludmilla Aiden Kaden Jayden Logan Liam Jacob Caden Jackson Matthew John Robert David Richard Charles Joseph Mikayla Sophia Maya Danica Ava Isabella Constanza Martina Catalina Valentina Sofia Javiera Antonia Isidora Francisca Mary Patricia Linda Barbara Elizabeth Jennifer Susan Margaret}
 

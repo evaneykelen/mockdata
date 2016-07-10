@@ -1,9 +1,9 @@
 require 'minitest/autorun'
-require 'bitgain_mockdata/locations'
+require 'mockdata/locations'
 
-class BitgainMockdataTest < Minitest::Test
+class MockdataTest < Minitest::Test
   def test_locations
-    location = BitgainMockdata::Locations.pick
+    location = Mockdata::Locations.pick
     assert_equal location.size, 3
     refute_nil location[0]
     refute_nil location[1]

@@ -1,13 +1,13 @@
 require 'minitest/autorun'
-require 'bitgain_mockdata/names'
+require 'mockdata/names'
 
-class BitgainMockdataTest < Minitest::Test
+class MockdataTest < Minitest::Test
   def test_names
-    refute_nil BitgainMockdata::Names.first_name
-    refute_nil BitgainMockdata::Names.last_name
-    refute_nil BitgainMockdata::Names.first_and_last_name
-    refute_nil BitgainMockdata::Names.company_name
-    refute_nil BitgainMockdata::Names.project_name
-    refute_nil BitgainMockdata::Names.horse_name
+    refute_nil Mockdata::Names.first_name
+    refute_nil Mockdata::Names.last_name
+    refute_nil Mockdata::Names.first_and_last_name
+    refute_nil Mockdata::Names.company_name
+    refute_nil Mockdata::Names.project_name
+    refute_nil Mockdata::Names.horse_name
   end
 end

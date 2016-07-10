@@ -1,4 +1,4 @@
-module BitgainMockdata
+module Mockdata
   class Numbers
     # random_between(2..6) # => 2
     def self.random_between(_range)

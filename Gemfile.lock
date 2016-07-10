@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    bitgain-mockdata (0.1.0)
+    mockdata (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -12,7 +12,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bitgain-mockdata!
+  mockdata!
   bundler (~> 1.11)
   rake (~> 10.0)
 
