@@ -1,3 +1,5 @@
+[![Gem Version](https://badge.fury.io/rb/mockdata.svg)](https://badge.fury.io/rb/mockdata)
+
 **Random data generator for test purposes**
 
 _Note: All dummy data is work-place safe (IMO) but use at your own risk._
