@@ -3,11 +3,10 @@ require 'mockdata/names'
 
 class MockdataTest < Minitest::Test
   def test_names
-    refute_nil Mockdata::Names.first_name
-    refute_nil Mockdata::Names.last_name
-    refute_nil Mockdata::Names.first_and_last_name
-    refute_nil Mockdata::Names.company_name
-    refute_nil Mockdata::Names.project_name
-    refute_nil Mockdata::Names.horse_name
+    assert Mockdata::Names::COMPANY_NAMES.include?  Mockdata::Names.company
+    assert Mockdata::Names::BUSINESS_TYPES.include? Mockdata::Names.business_type
+    assert Mockdata::Names::PROJECT_NAMES.include?  Mockdata::Names.project
+    assert Mockdata::Names::HOTEL_NAMES.include?    Mockdata::Names.hotel
+    assert Mockdata::Names::OCCUPATIONS.include?    Mockdata::Names.occupation
   end
 end

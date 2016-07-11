@@ -1,105 +1,101 @@
 [![Gem Version](https://badge.fury.io/rb/mockdata.svg)](https://badge.fury.io/rb/mockdata)
 
-**Random data generator for test purposes**
+### Random data generator for test purposes
 
 _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
-**Random location (31 locations in US)**
+#### Animal names
 
-`Bitgain::Mockdata::Locations.pick `
-`=> "Farmington", "36.74108512094412", "-108.1658935546875"`
+`Mockdata::Animals.horse => "Sally"`
 
-**Random names (128 first names, 128 last names, 15 company names, 37 project names)**
+`Mockdata::Animals.pet => "Cute Tiger"`
 
-Return random first name (English, European, Asian and other names)
+`Mockdata::Animals.critter => "Ferret"`
 
-`Bitgain::Mockdata::Names.first_name`
-`=> "David"`
+`Mockdata::Animals.dog => "Dodger"`
 
-Return random last name (English, European, Asian and other names)
+`Mockdata::Animals.cat => "Sammy"`
 
-`Bitgain::Mockdata::Names.last_name`
-`=> "Allen"`
+#### Locations
 
-Return random first and last name (English, European, Asian and other names)
+`Mockdata::Locations.city_latitude_longitude => ["Miami", 25.809781975840405, -80.255126953125]`
 
-`Bitgain::Mockdata::Names.first_and_last_name`
-`=> "David Allen"`
+`Mockdata::Locations.city => ["Belgrade", "Serbia"]`
 
-Return random company name
+`Mockdata::Locations.streetname => "Back Wood Quay"`
 
-`Bitgain::Mockdata::Names.company_name`
-`=> "Buzzarray Ltd"`
+`Mockdata::Locations.island => "The Coral Cay"`
 
-Return random project name
+`Mockdata::Locations.airport => "Medcalf Field Airport"`
 
-`Bitgain::Mockdata::Names.project_name`
-`=> "Pure Spider"`
+#### Names
 
-Return random horse name
+`Mockdata::Names.company => "Purplegale Limited"`
 
-`Bitgain::Mockdata::Names.horse_name`
-`=> "Blaze"`
+`Mockdata::Names.business_type => "Telephone Apparatus Manufacturing`
 
-**Random numbers**
+`Mockdata::Names.project => "Brave Neutron"`
 
-Return random number between 1 and 10
+`Mockdata::Names.hotel => "Farmhouse Hotel"`
 
-`Bitgain::Mockdata::Numbers.random_between(1..10)`
-`=> 6`
+`Mockdata::Names.occupation => "Airport Tower Controller"`
 
-Return array with 3 elements, filled with random numbers between 1..10
+#### Numbers
 
-`Bitgain::Mockdata::Numbers.random_number_array(1..10,3)`
-`=> [9,1,4]`
+Return random number between 1 and 3 including 1 and 3
 
-Return array with 3 elements, filled with random numbers picked from [1,2,3,4]
+`Mockdata::Numbers.random_between_min_max_inclusive(1..3) => 3`
 
-`Bitgain::Mockdata::Numbers.choose_from_array([1,2,3,4], 3)`
-`=> [4, 2, 3]`
+Return random number between 1 and 3 excluding 1 and 3
 
-**Random time-zone**
+`Mockdata::Numbers.random_between_min_max_exclusive(1..3) => 2`
 
-Random time-zones (141 time-zones across the planet):
+Return array with 3 elements, filled with random numbers between 1 and 10
 
-`Bitgain::Mockdata::TimeZones.pick`
-`=> "Mountain Time (US &amp; Canada)"`
+`Mockdata::Numbers.random_number_array(1..10, 3) => [9,1,4]`
 
-Random time-zones (142) formatted as hashes (lifted from Ruby on Rails):
+Return array with 3 elements, filled with random numbers picked from [1, 2, 3, 4]
 
-`Bitgain::Mockdata::TimeZones.pick_hash`
-`=> {"Madrid"=>"Europe/Madrid"}`
+`Mockdata::Numbers.choose_from_array_with_possible_duplicates([1, 2, 3, 4], 3) => [4, 2, 2]`
 
-**Random words**
+`Mockdata::Numbers.choose_from_array_without_duplicates([1, 2, 3, 4], 3) => [4, 2, 3]`
 
-2323 random words (see note on top):
+#### People
 
-Return a single random word:
+The first and last names contain English, European, Asian and other names.
 
-`Bitgain::Mockdata::Words.one`
-`=> "rocket"`
+`Mockdata::People.first_and_last_name => "David Allen"`
 
-Return two random words separated by a space:
+`Mockdata::Names.first_name => "David"`
 
-`Bitgain::Mockdata::Words.two`
-`=> "silk verb"`
+`Mockdata::Names.last_name => "Allen"`
 
-Return three random words separated by spaces:
+`Mockdata::People.superhero => "Raving Warrior"`
 
-`Bitgain::Mockdata::Words.three`
-`=> "thin moment pool"`
+`Mockdata::People.elf => "Relboron Meldin"`
 
-Return four random words separated by spaces:
+`Mockdata::People.robot => "Sensory Network Defense Android"`
 
-`Bitgain::Mockdata::Words.four`
-`=> "onto surprise note hall"`
+#### Time-zones
 
-Return 3 random words separated by spaces:
+Return a random time-zone:
 
-`Bitgain::Mockdata::Words.pick(3)`
-`=> "lane blot grape"`
+`Mockdata::TimeZones.pick => {"Minsk"=>"Europe/Minsk"}`
+
+#### Words
+
+Return random words:
+
+`Mockdata::Words.one => "rocket"`
+
+`Mockdata::Words.two => "silk verb"`
+
+`Mockdata::Words.three => "thin moment pool"`
+
+`Mockdata::Words.four => "onto surprise note hall"`
+
+`Mockdata::Words.pick(10) => "well shovel slick doctor poke seek threat bone together obey"`
 
 Return between 2 and 10 random words separated by spaces:
 
-`Bitgain::Mockdata::Words.some(2..10)`
-`=> "beam scan grown tape course thimble newscast main asleep"`
+`Mockdata::Words.some(2..10) => "beam scan grown tape course thimble newscast main asleep"`
