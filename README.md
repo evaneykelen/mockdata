@@ -56,7 +56,7 @@ Return random number between 1 and 3 excluding 1 and 3
 
 Return array with 3 elements, filled with random numbers between 1 and 10
 
-`Mockdata::Numbers.random_number_array(1..10, 3) => [9,1,4]`
+`Mockdata::Numbers.random_number_array(1..10, 3) => [9, 1, 4]`
 
 Return array with 3 elements, filled with random numbers picked from [1, 2, 3, 4]
 
