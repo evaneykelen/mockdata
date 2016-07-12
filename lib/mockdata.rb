@@ -1,4 +1,5 @@
 require 'mockdata/animals'
+require 'mockdata/avatars'
 require 'mockdata/locations'
 require 'mockdata/names'
 require 'mockdata/numbers'
