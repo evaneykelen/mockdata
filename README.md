@@ -70,11 +70,11 @@ The first and last names contain English, European, Asian and other names.
 
 `Mockdata::People.first_and_last_name => "David Allen"`
 
-`Mockdata::People.dutch_first_and_last_name => "Bart van der Heijden"`
-
 `Mockdata::Names.first_name => "David"`
 
 `Mockdata::Names.last_name => "Allen"`
+
+`Mockdata::People.dutch_first_and_last_name => "Bart van der Heijden"`
 
 `Mockdata::Names.dutch_first_name => "Bart"`
 
@@ -109,3 +109,28 @@ Return random words:
 Return between 2 and 10 random words separated by spaces:
 
 `Mockdata::Words.some(2..10) => "beam scan grown tape course thimble newscast main asleep"`
+
+#### License
+
+MIT
+
+#### In the works...
+
+- Screenshot images
+- Landscape photos
+- B&W images
+- Zip-codes
+- Country names
+- Phone numbers
+- Bank numbers
+- Credit card numbers
+- Email addresses
+- First and last names from more countries/regions
+- Car brands
+- Flight numbers
+- Weather data
+- News
+- Amounts/prices
+- Passwords
+- Dates/ranges
+- File extensions/icons
