@@ -24,7 +24,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
 `Mockdata::Locations.city_latitude_longitude => ["Miami", 25.809781975840405, -80.255126953125]`
 
-`Mockdata::Locations.city => ["Belgrade", "Serbia"]`
+`Mockdata::Locations.city_country => ["Belgrade", "Serbia"]`
 
 `Mockdata::Locations.streetname => "Back Wood Quay"`
 

@@ -170,7 +170,7 @@ module Mockdata
       LOCATIONS.sample
     end
 
-    def self.city
+    def self.city_country
       CITIES.sample
     end
 
