@@ -4,6 +4,34 @@
 
 _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
+| Class | Type | Number of random data elements |
+|----------|-------|--------|
+| Animals | Horse names| 96 |
+| Animals | Pet names | 52 |
+| Animals | Critter names | 170 |
+| Animals | Dog names | 150 |
+| Animals | Cat names | 116 |
+| Avatars | Profile pictures | 280 |
+| Locations | City/Longitude/Latitude | 31 |
+| Locations | Cities | 120 |
+| Locations | Street names | 100 |
+| Locations | Islands | 50 |
+| Locations | Airports | 99 |
+| Names | Company names | 69 |
+| Names | Business types | 95 |
+| Names | Project names | 37 |
+| Names | Hotel names | 60 |
+| Names | Occupations | 74 |
+| People | First names | 176 |
+| People | Last names | 195 |
+| People | First names (Dutch-only) | 111 |
+| People | Last names (Dutch-only) | 91 |
+| People | Superhero names | 53 |
+| People | Elf names | 55 |
+| People | Robot names | 49 |
+| TimeZones | TimeZones/Regions | 142 |
+| Words | Words | 2323 |
+
 #### Animal names
 
 `Mockdata::Animals.horse => "Sally"`
