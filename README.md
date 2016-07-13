@@ -144,21 +144,22 @@ MIT
 
 #### In the works...
 
-- Screenshot images
-- Landscape photos
-- B&W images
-- Zip-codes
-- Country names
-- Phone numbers
-- Bank numbers
-- Credit card numbers
-- Email addresses
-- First and last names from more countries/regions
-- Car brands
-- Flight numbers
-- Weather data
-- News
-- Amounts/prices
-- Passwords
-- Dates/ranges
-- File extensions/icons
+- [ ] Screenshot images
+- [ ] Landscape photos
+- [ ] B&W images
+- [ ] Zip-codes
+- [ ] Country names
+- [ ] Phone numbers
+- [ ] Bank numbers
+- [ ] Credit card numbers
+- [ ] Email addresses
+- [ ] First and last names from more countries/regions
+- [ ] Car brands
+- [ ] Flight numbers
+- [ ] Weather data
+- [ ] News
+- [ ] Amounts/prices
+- [ ] Passwords
+- [ ] Dates/ranges
+- [ ] File extensions/icons
+- [ ] UTF-8 test strings
