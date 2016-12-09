@@ -144,6 +144,7 @@ MIT
 
 #### In the works...
 
+- [ ] Languages
 - [ ] Screenshot images
 - [ ] Landscape photos
 - [ ] B&W images
@@ -163,3 +164,4 @@ MIT
 - [ ] Dates/ranges
 - [ ] File extensions/icons
 - [ ] UTF-8 test strings
+- [ ] Currencies

@@ -41,5 +41,10 @@ class MockdataTest < Minitest::Test
       assert r.size == 3
     end
 
+    # Array used as input should be left untouched
+    arr_in = [10, 11, 12]
+    Mockdata::Numbers.choose_from_array_without_duplicates(arr_in, 3).size
+    assert_equal [10, 11, 12], arr_in
+
   end
 end
