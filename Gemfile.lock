@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    mockdata (0.1.0)
+    mockdata (0.1.5)
 
 GEM
   remote: https://rubygems.org/
@@ -12,9 +12,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  mockdata!
   bundler (~> 1.11)
+  mockdata!
   rake (~> 10.0)
 
 BUNDLED WITH
-   1.11.2
+   1.13.6
