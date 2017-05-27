@@ -76,11 +76,11 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
 Return random number between 1 and 3 including 1 and 3
 
-`Mockdata::Numbers.random_between_min_max_inclusive(1..3) => 3`
+`Mockdata::Numbers.random_between_min_max_inclusive(1, 3) => 3`
 
 Return random number between 1 and 3 excluding 1 and 3
 
-`Mockdata::Numbers.random_between_min_max_exclusive(1..3) => 2`
+`Mockdata::Numbers.random_between_min_max_exclusive(1, 3) => 2`
 
 Return array with 3 elements, filled with random numbers between 1 and 10
 
