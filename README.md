@@ -98,15 +98,15 @@ The first and last names contain English, European, Asian and other names.
 
 `Mockdata::People.first_and_last_name => "David Allen"`
 
-`Mockdata::Names.first_name => "David"`
+`Mockdata::People.first_name => "David"`
 
-`Mockdata::Names.last_name => "Allen"`
+`Mockdata::People.last_name => "Allen"`
 
 `Mockdata::People.dutch_first_and_last_name => "Bart van der Heijden"`
 
-`Mockdata::Names.dutch_first_name => "Bart"`
+`Mockdata::People.dutch_first_name => "Bart"`
 
-`Mockdata::Names.dutch_last_name => "van der Heijden"`
+`Mockdata::People.dutch_last_name => "van der Heijden"`
 
 `Mockdata::People.superhero => "Raving Warrior"`
 
