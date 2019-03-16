@@ -1,5 +1,6 @@
 require 'mockdata/animals'
 require 'mockdata/avatars'
+require 'mockdata/countries'
 require 'mockdata/languages'
 require 'mockdata/locations'
 require 'mockdata/names'

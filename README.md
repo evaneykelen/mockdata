@@ -48,6 +48,10 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
 `Mockdata::Avatars.pick => "https://s3.amazonaws.com/uifaces/faces/twitter/arminophen/128.jpg"`
 
+#### Countries
+
+`Mockdata::Countries.pick => "France"`
+
 #### Languages
 
 `Mockdata::Languages.pick => "Chinese"`
@@ -144,27 +148,20 @@ Return between 2 and 10 random words separated by spaces:
 
 #### License
 
-MIT
+MIT (see LICENSE.txt)
 
 #### In the works...
 
-- [ ] Languages
-- [ ] Screenshot images
-- [ ] Landscape photos
-- [ ] B&W images
 - [ ] Zip-codes
-- [ ] Country names
 - [ ] Phone numbers
 - [ ] Bank numbers
-- [ ] Credit card numbers
+- [ ] Credit card numbers (fake)
 - [ ] Email addresses
-- [ ] First and last names from more countries/regions
 - [ ] Car brands
 - [ ] Flight numbers
 - [ ] Weather data
 - [ ] News
 - [ ] Amounts/prices
-- [ ] Passwords
 - [ ] Dates/ranges
 - [ ] File extensions/icons
 - [ ] UTF-8 test strings
