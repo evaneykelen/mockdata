@@ -6,7 +6,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
 | Class | Type | Number of random data elements |
 |----------|-------|--------|
-| Animals | Horse names| 96 |
+| Animals | Horse names | 96 |
 | Animals | Pet names | 52 |
 | Animals | Critter names | 170 |
 | Animals | Dog names | 150 |
@@ -19,7 +19,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 | Languages | Language names | 121 |
 | | | |
 | Locations | City/Longitude/Latitude | 31 |
-| Locations | Cities | 120 |
+| Locations | City/Country | 120 |
 | Locations | Street names | 100 |
 | Locations | Islands | 50 |
 | Locations | Airports | 99 |
@@ -38,7 +38,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 | People | Elf names | 55 |
 | People | Robot names | 49 |
 | | | |
-| TimeZones | TimeZones/Regions | 142 |
+| TimeZones | TimeZone/Region | 142 |
 | | | |
 | Words | Words | 2323 |
 
