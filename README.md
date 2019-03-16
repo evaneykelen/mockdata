@@ -132,6 +132,12 @@ The first and last names contain English, European, Asian and other names.
 
 `Mockdata::People.robot => "Sensory Network Defense Android"`
 
+`Mockdata::People.email_address => "david.allen@example.com"`
+
+`Mockdata::People.email_address_based_on_first_and_last_name("David", "Allen") => "david.allen@example.com"`
+
+Note: all email addresses use `example.com` to prevent accidentally generating real email addresses.
+
 #### Time-zones
 
 Return a random time-zone:

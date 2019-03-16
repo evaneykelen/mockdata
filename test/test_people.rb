@@ -12,5 +12,8 @@ class MockdataTest < Minitest::Test
     assert Mockdata::People::SUPERHERO_NAMES.include?         Mockdata::People.superhero
     assert Mockdata::People::ELF_NAMES.include?               Mockdata::People.elf
     assert Mockdata::People::ROBOT_NAMES.include?             Mockdata::People.robot
+    refute_nil Mockdata::People.email_address
+    assert "erik.van.eykelen@example.com" ==
+           Mockdata::People.email_address_based_on_first_and_last_name("Erik", "van Eykelen")
   end
 end
