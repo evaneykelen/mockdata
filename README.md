@@ -48,6 +48,10 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 
 `Mockdata::Avatars.pick => "https://s3.amazonaws.com/uifaces/faces/twitter/arminophen/128.jpg"`
 
+#### Languages
+
+`Mockdata::Languages.pick => "Chinese"`
+
 #### Locations
 
 `Mockdata::Locations.city_latitude_longitude => ["Miami", 25.809781975840405, -80.255126953125]`
