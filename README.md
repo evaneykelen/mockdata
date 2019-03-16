@@ -172,7 +172,6 @@ MIT (see LICENSE.txt)
 - [ ] Phone numbers
 - [ ] Bank numbers
 - [ ] Credit card numbers (fake)
-- [ ] Email addresses
 - [ ] Car brands
 - [ ] Flight numbers
 - [ ] Weather data
