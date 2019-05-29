@@ -27,6 +27,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 | Names | Car brands names | 51 |
 | Names | Company names | 69 |
 | Names | Business types | 95 |
+| Names | File extensions | 83 |
 | Names | Project names | 37 |
 | Names | Hotel names | 60 |
 | Names | Occupations | 74 |
@@ -86,6 +87,10 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 `Mockdata::Names.company => "Purplegale Limited"`
 
 `Mockdata::Names.business_type => "Telephone Apparatus Manufacturing`
+
+`Mockdata::Names.file_name => "blue-foal.pdf"`
+
+`Mockdata::Names.file_extension => "xml`
 
 `Mockdata::Names.project => "Brave Neutron"`
 
@@ -180,6 +185,5 @@ MIT (see LICENSE.txt)
 - [ ] News
 - [ ] Amounts/prices
 - [ ] Dates/ranges
-- [ ] File extensions/icons
 - [ ] UTF-8 test strings
 - [ ] Currencies
