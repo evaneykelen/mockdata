@@ -175,7 +175,6 @@ MIT (see LICENSE.txt)
 - [ ] Phone numbers
 - [ ] Bank numbers
 - [ ] Credit card numbers (fake)
-- [ ] Car brands
 - [ ] Flight numbers
 - [ ] Weather data
 - [ ] News
