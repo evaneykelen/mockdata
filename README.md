@@ -1,4 +1,5 @@
-[![Gem Version](https://badge.fury.io/rb/mockdata.svg)](https://badge.fury.io/rb/mockdata)
+![Gem Version](https://img.shields.io/gem/v/mockdata.svg) ![License](https://img.shields.io/github/license/evaneykelen/mockdata.svg)
+![Last Commit](https://img.shields.io/github/last-commit/evaneykelen/mockdata.svg)
 
 ### Random data generator for test purposes
 
