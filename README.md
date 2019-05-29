@@ -24,6 +24,7 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 | Locations | Islands | 50 |
 | Locations | Airports | 99 |
 | | | |
+| Names | Car brands names | 51 |
 | Names | Company names | 69 |
 | Names | Business types | 95 |
 | Names | Project names | 37 |
@@ -79,6 +80,8 @@ _Note: All dummy data is work-place safe (IMO) but use at your own risk._
 `Mockdata::Locations.airport => "Medcalf Field Airport"`
 
 #### Names
+
+`Mockdata::Names.car_brand => "Tesla"`
 
 `Mockdata::Names.company => "Purplegale Limited"`
 
