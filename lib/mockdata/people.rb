@@ -54,7 +54,7 @@ module Mockdata
     end
 
     def self.email_address
-      "#{first_name}.#{last_name}@example.com".downcase
+      email_address_based_on_first_and_last_name(first_name, last_name)
     end
 
     def self.email_address_based_on_first_and_last_name(first_name, last_name)
