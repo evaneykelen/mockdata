@@ -6,7 +6,7 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
-    rake (12.3.2)
+    rake (13.0.1)
 
 PLATFORMS
   ruby
@@ -14,7 +14,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 2)
   mockdata!
-  rake (~> 12)
+  rake (~> 13)
 
 BUNDLED WITH
    2.1.4
