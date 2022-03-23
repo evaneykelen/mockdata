@@ -119,6 +119,10 @@ Return array with 3 elements, filled with random numbers picked from [1, 2, 3, 4
 
 `Mockdata::Numbers.choose_from_array_without_duplicates([1, 2, 3, 4], 3) => [4, 2, 3]`
 
+Return written number from zero to 100 inclusive:
+
+`Mockdata::Numbers.written_number(42) => "forty-two"`
+
 #### People
 
 The first and last names contain English, European, Asian and other names.
@@ -147,6 +151,8 @@ The first and last names contain English, European, Asian and other names.
 
 Note: all email addresses use `example.com` to prevent accidentally generating real email addresses.
 
+`Mockdata::People.physicists_last_name => "du Châtelet"`
+
 #### Time-zones
 
 Return a random time-zone:
@@ -170,6 +176,10 @@ Return random words:
 Return between 2 and 10 random words separated by spaces:
 
 `Mockdata::Words.some(2..10) => "beam scan grown tape course thimble newscast main asleep"`
+
+Return translations for the word 'sun':
+
+`Mockdata::Words.word_for_sun => "zon"`
 
 #### License
 
